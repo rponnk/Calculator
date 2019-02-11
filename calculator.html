@@ -1,41 +1,47 @@
 <!doctype html>
 <html>
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<head><title>Calculator</title></head>
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
 <body>
+    <div>
+        <h1 class="center">Basic Caluclator</h1>
+    </div>
 <div class="box">
-    <div class="display"><input type="text" size="27" id="d"></div><!--readonly can be used here-->
+    <div class="display">
+        <input type="text"  id="d"></div>
     <div class="numbers">
-    	<p class="center">Calculator</p>
-        <p>
-        <input type="button" class="button gray" value="7" onclick='math("7")'>
-        <input type="button" class="button gray" value="8" onclick='math("8")'>
-        <input type="button" class="button gray" value="9" onclick='math("9")'>
-        <input type="button" class="button gray" value="Del" onclick='c("")'>
-        <input type="button" class="button gray" value="AC" onclick='c("")'>
-        </p>
-        <p>
-        <input type="button" class="button gray" value="4" onclick='math("4")'>
-        <input type="button" class="button gray" value="5" onclick='math("5")'>
-        <input type="button" class="button gray" value="6" onclick='math("6")'>
-        <input type="button" class="button gray" value="*" onclick='math("*")'>
-        <input type="button" class="button gray" value="/" onclick='math("/")'>
-        </p>
-        <p>
-        <input type="button" class="button gray" value="1" onclick='math("1")'>
-        <input type="button" class="button gray" value="2" onclick='math("2")'>
-        <input type="button" class="button gray" value="3" onclick='math("3")'>
-        <input type="button" class="button gray" value="+" onclick='math("+")'>
-        <input type="button" class="button gray" value="-" onclick='math("-")'>
-        </p>
-        <p>
-        <input type="button" class="button gray" value="0" onclick='math("0")'>
-        <input type="button" class="button gray" value="." onclick='math(".")'>
-        <input type="button" class="button green" value="=" onclick='e()'>
+        <div>
+            <input type="button" class="button gray" value="7" onclick='math("7")'>
+            <input type="button" class="button gray" value="8" onclick='math("8")'>
+            <input type="button" class="button gray" value="9" onclick='math("9")'>
+            <input type="button" class="button gray" value="Del" onclick='c("")'>
+            <input type="button" class="button gray" value="AC" onclick='c("")'>
+        </div>
+        <div>
+            <input type="button" class="button gray" value="4" onclick='math("4")'>
+            <input type="button" class="button gray" value="5" onclick='math("5")'>
+            <input type="button" class="button gray" value="6" onclick='math("6")'>
+            <input type="button" class="button gray" value="*" onclick='math("*")'>
+            <input type="button" class="button gray" value="/" onclick='math("/")'>
+        </div>
+        <div>
+            <input type="button" class="button gray" value="1" onclick='math("1")'>
+            <input type="button" class="button gray" value="2" onclick='math("2")'>
+            <input type="button" class="button gray" value="3" onclick='math("3")'>
+            <input type="button" class="button gray" value="+" onclick='math("+")'>
+            <input type="button" class="button gray" value="-" onclick='math("-")'>
+        </div>
+        <div>
+            <input type="button" class="button gray" value="0" onclick='math("0")'>
+            <input type="button" class="button gray" value="." onclick='math(".")'>
+            <input type="button" class="button green" value="=" onclick='e()'>
   
-        </p>
+        </div>
     </div>
 </div>
 </body>
-<script type="text/JavaScript" src="js/calculator.js"></script>
+<script type="text/JavaScript" src="calculator.js"></script>
 </html>	
